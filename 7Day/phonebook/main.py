@@ -1,3 +1,6 @@
+import Add_New_man as a
+import Show_men as sh
+import NewFile as nf
 
 print(' выбери дейстие: ')
 print("'s'- добавить новую запись")
@@ -7,11 +10,8 @@ print("'e' = export file")
 
 choise = input('выбери действие ')
 if choise == 's':
-    import Add_New_man as a
     a.add_New()
 elif choise == 'sh':
-    import Show_men as sh
     sh.show()
 elif choise == 'e':
-    import NewFile as nf
     nf.export(input('введите имя и расширение'))
