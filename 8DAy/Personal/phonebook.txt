@@ -1,0 +1,4 @@
+ФАМИЛИЯ,ИМЯ,ДОЛЖНОСТЬ,СТАТУС
+jon,smit,007,employer
+smit,jons,44,fire
+adam,smith,8917,yelo
